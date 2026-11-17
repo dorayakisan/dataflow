@@ -12,6 +12,8 @@
 - Excel：5シート、4ネイティブグラフ、固定・フィルタ・文字列の数式対策をopenpyxlで再読み込み確認
 - `sample_data/sales.csv`、`sales.xlsx`、`DataFlow_Report_sample.xlsx` を生成
 
-未実施：GitHubへの公開、Streamlit Community Cloudへのデプロイ、公開URLでの確認。これらは添付仕様で実行前確認が指定されているため、公開先の指定・許可後に行う必要があります。実際のMicrosoft Excelでのグラフ編集操作、Linux/Python 3.12のCI実行、大量同時アクセスの負荷試験はこの環境では実施していません。
+公開後の確認：GitHub公開、Streamlit Community Cloud（Python 3.12）へのデプロイが完了。公開URL https://dorayakisan-dataflow.streamlit.app/ で500明細の検証成功・Excel生成とダウンロードを確認しました。GitHub Actions（Linux / Python 3.12）のテストも成功しています。
+
+未実施：実際のMicrosoft Excelでのグラフ編集操作、大量同時アクセスの負荷試験。
 
 現時点の自動テストに失敗はありません。対応範囲・運用上の制限と判断ルールはREADMEを参照してください。
